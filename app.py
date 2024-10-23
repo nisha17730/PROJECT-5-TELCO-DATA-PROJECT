@@ -7,9 +7,6 @@ from sklearn.metrics import accuracy_score
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 
-
-df = pd.read_csv(r'C:\Users\Nisha Pal\OneDrive\Desktop\PROJECT 5\telcom_data.csv')
-
 # Streamlit App
 def main():
     st.title("User Engagement & Satisfaction Dashboard")
